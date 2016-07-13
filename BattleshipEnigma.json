@@ -1,0 +1,5224 @@
+{
+  "SaveName": "BattleshipEnigma",
+  "GameMode": "BattleshipEnigma",
+  "Date": "7/13/2016 10:36:10 PM",
+  "Table": "Table_Custom_Square",
+  "TableURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Textures/metal.jpg",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hidding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -9.482677,
+          "posY": 2.85128355,
+          "posZ": -28.5665779,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.482677,
+          "scaleY": 6.6973896,
+          "scaleZ": 3.55600452
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -28.6376858,
+          "posY": 2.85128355,
+          "posZ": 9.48268,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.48268,
+          "scaleY": 6.6973896,
+          "scaleZ": 3.556004
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 28.5665665,
+          "posY": 2.85128355,
+          "posZ": 9.48268,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.48268,
+          "scaleY": 6.6973896,
+          "scaleZ": 3.556004
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 11.8414936,
+          "posY": 2.85128355,
+          "posZ": 28.6732578,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 9.482719,
+          "scaleY": 6.6973896,
+          "scaleZ": 3.55600524
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 9.482677,
+          "posY": 2.85128355,
+          "posZ": -28.6021328,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 9.482677,
+          "scaleY": 6.69739056,
+          "scaleZ": 3.55600452
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -10.3242655,
+          "posY": 2.85128355,
+          "posZ": 28.6732578,
+          "rotX": 0.0,
+          "rotY": 180.000015,
+          "rotZ": 0.0,
+          "scaleX": 9.482677,
+          "scaleY": 6.6973896,
+          "scaleZ": 3.55600452
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 28.5665665,
+          "posY": 2.85128355,
+          "posZ": -9.399708,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 9.48268,
+          "scaleY": 6.6973896,
+          "scaleZ": 3.556004
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -28.6021252,
+          "posY": 2.85128355,
+          "posZ": -9.672334,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 9.48268,
+          "scaleY": 6.6973896,
+          "scaleZ": 3.556004
+        }
+      }
+    ]
+  },
+  "DrawImage": "iVBORw0KGgoAAAANSUhEUgAAAWAAAADQCAYAAAA53LuNAAAFFElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgy8DQx5DAABHyNK3wAAAABJRU5ErkJggg==",
+  "VectorLines": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 17.5199032,
+        "posY": 1.13999653,
+        "posZ": -20.3681183,
+        "rotX": -9.20401362E-05,
+        "rotY": 194.996246,
+        "rotZ": -3.45402077E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/blue_radio.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/left_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "15fc8e",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.044040665,
+            "y": 0.180000067,
+            "z": -0.293452263
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 19.1840782,
+        "posY": 1.13999677,
+        "posZ": -14.00526,
+        "rotX": -8.715295E-05,
+        "rotY": 195.0001,
+        "rotZ": -3.42669664E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_radio.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/right_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f66c80",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0243523046,
+            "y": 0.180000067,
+            "z": -0.486723453
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 19.2865734,
+        "posY": 1.12821984,
+        "posZ": -13.5288315,
+        "rotX": 7.36862348E-05,
+        "rotY": 314.9902,
+        "rotZ": -5.80861633E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_dial.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 2.700001,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "32d61f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 17.6383762,
+        "posY": 1.12822,
+        "posZ": -20.0960579,
+        "rotX": 7.50967156E-05,
+        "rotY": 315.0303,
+        "rotZ": -6.27234E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/blue_dial.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/blue_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 2.700001,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b2c3f1"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -21.5779362,
+        "posY": 0.943,
+        "posZ": -12.268877,
+        "rotX": -8.388794E-08,
+        "rotY": 0.000782324933,
+        "rotZ": 9.118656E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "White Pegs",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.5752754,
+            "posY": 3.42899585,
+            "posZ": -6.92584038,
+            "rotX": 359.7019,
+            "rotY": -0.00274245976,
+            "rotZ": 359.21936,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921603,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CustomMesh": {
+            "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/white_peg.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "ddb22b"
+        }
+      ],
+      "GUID": "37ce99"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -20.3874969,
+        "posY": 0.942999959,
+        "posZ": -15.2420034,
+        "rotX": -6.262742E-07,
+        "rotY": 0.000898084952,
+        "rotZ": -2.38439128E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Red Pegs",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.3901768,
+            "posY": 3.42521524,
+            "posZ": -3.64144,
+            "rotX": 0.210161641,
+            "rotY": 0.0245777573,
+            "rotZ": 359.1974,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921603,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CustomMesh": {
+            "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "320b08"
+        }
+      ],
+      "GUID": "4c8a0a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -12.8834953,
+        "posY": 3.14773417,
+        "posZ": -7.4659996,
+        "rotX": -3.72010868E-06,
+        "rotY": -0.00032036638,
+        "rotZ": 3.99303235E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "320b08"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -11.31115,
+        "posY": 3.15330935,
+        "posZ": -7.027568,
+        "rotX": 359.366,
+        "rotY": 0.00389369647,
+        "rotZ": 359.8333,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "fc19cc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -9.453275,
+        "posY": 3.15377355,
+        "posZ": -6.47617674,
+        "rotX": 359.323547,
+        "rotY": 0.00275310362,
+        "rotZ": 359.818481,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "25a896"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -7.65009832,
+        "posY": 3.15343046,
+        "posZ": -6.033451,
+        "rotX": 359.33316,
+        "rotY": 0.00189007306,
+        "rotZ": 359.845337,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1d1c91"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -6.038037,
+        "posY": 3.14773464,
+        "posZ": -5.475056,
+        "rotX": -8.749343E-06,
+        "rotY": -0.000316644233,
+        "rotZ": 2.06356276E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "65bcc0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 14.4061909,
+        "posY": 3.14157271,
+        "posZ": 7.922626,
+        "rotX": -1.935566E-06,
+        "rotY": -0.0003171601,
+        "rotZ": 9.73740953E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "bfc45f"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.8337011,
+        "posY": 3.14711618,
+        "posZ": 7.484713,
+        "rotX": 0.636303842,
+        "rotY": 0.00183326635,
+        "rotZ": 0.163193285,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f12bbc"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.9755745,
+        "posY": 3.14760971,
+        "posZ": 6.93415642,
+        "rotX": 359.299622,
+        "rotY": 164.954041,
+        "rotZ": 0.0006802149,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "56ca77"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 9.172288,
+        "posY": 3.147268,
+        "posZ": 6.49188757,
+        "rotX": 0.6669096,
+        "rotY": 0.00141853176,
+        "rotZ": 0.154582188,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e81139"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 7.560054,
+        "posY": 3.14157271,
+        "posZ": 5.934017,
+        "rotX": 1.10896781E-06,
+        "rotY": -0.000350231683,
+        "rotZ": 9.497875E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "68917a"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 23.0627117,
+        "posY": 0.942999959,
+        "posZ": 15.25034,
+        "rotX": 9.491829E-07,
+        "rotY": 0.000783917145,
+        "rotZ": -3.74492437E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "White Pegs",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.5752754,
+            "posY": 3.42899585,
+            "posZ": -6.92584038,
+            "rotX": 359.7019,
+            "rotY": -0.00274245976,
+            "rotZ": 359.21936,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921603,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CustomMesh": {
+            "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/white_peg.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "ddb22b"
+        }
+      ],
+      "GUID": "d12ea0"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 22.9196186,
+        "posY": 0.9429998,
+        "posZ": 21.0969658,
+        "rotX": 9.617944E-07,
+        "rotY": 0.0008992598,
+        "rotZ": 1.06181631E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Red Pegs",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": -17.3901768,
+            "posY": 3.42521524,
+            "posZ": -3.64144,
+            "rotX": 0.210161641,
+            "rotY": 0.0245777573,
+            "rotZ": 359.1974,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.9999999,
+            "g": 0.9921603,
+            "b": 0.9999999
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CustomMesh": {
+            "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_peg.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "320b08"
+        }
+      ],
+      "GUID": "1c9ba9"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 17.91318,
+        "posY": 1.13999677,
+        "posZ": 14.1741314,
+        "rotX": -8.606567E-05,
+        "rotY": 345.0122,
+        "rotZ": -3.5181838E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_radio.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/right_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "61bba0",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0243523046,
+            "y": 0.180000067,
+            "z": -0.486723453
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 18.0669727,
+        "posY": 1.12821984,
+        "posZ": 13.6983376,
+        "rotX": 7.44949648E-05,
+        "rotY": 105.008461,
+        "rotZ": -5.78863837E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_dial.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 2.700001,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "b49f8c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 16.2318687,
+        "posY": 1.12822008,
+        "posZ": 20.24084,
+        "rotX": 7.668776E-05,
+        "rotY": 105.008469,
+        "rotZ": -6.07043366E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/blue_dial.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/blue_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 2.700001,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a6f6cf"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 16.19412,
+        "posY": 1.13999653,
+        "posZ": 20.5476341,
+        "rotX": -9.06670539E-05,
+        "rotY": 345.012238,
+        "rotZ": -3.61441162E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/blue_radio.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/left_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ddc909",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.044040665,
+            "y": 0.180000067,
+            "z": -0.293452263
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -17.9347153,
+        "posY": 1.13999665,
+        "posZ": 14.8892937,
+        "rotX": -8.780078E-05,
+        "rotY": 15.0182762,
+        "rotZ": -3.30319526E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_radio.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/right_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "83b4b4",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0243523046,
+            "y": 0.180000067,
+            "z": -0.486723453
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -18.1159058,
+        "posY": 1.12822008,
+        "posZ": 14.4843321,
+        "rotX": 7.30015963E-05,
+        "rotY": 135.242188,
+        "rotZ": -5.91830358E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_dial.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 2.700001,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6b464c"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.5240669,
+        "posY": 1.12822032,
+        "posZ": 20.8275223,
+        "rotX": 7.66253361E-05,
+        "rotY": 135.100632,
+        "rotZ": -6.119556E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/blue_dial.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/blue_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 2.700001,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "9e0fb0"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.3215065,
+        "posY": 1.13999653,
+        "posZ": 21.0866661,
+        "rotX": -9.15229539E-05,
+        "rotY": 14.8587,
+        "rotZ": -3.47636924E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/blue_radio.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/left_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e1cb9e",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.044040665,
+            "y": 0.180000067,
+            "z": -0.293452263
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.537961,
+        "posY": 1.13999641,
+        "posZ": -13.87408,
+        "rotX": -8.676885E-05,
+        "rotY": 165.01947,
+        "rotZ": -3.39895669E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_radio.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/right_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "44588e",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0243523046,
+            "y": 0.180000067,
+            "z": -0.486723453
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -15.6882238,
+        "posY": 1.12821984,
+        "posZ": -13.4103527,
+        "rotX": 7.269134E-05,
+        "rotY": 285.012146,
+        "rotZ": -5.74561745E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/red_dial.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/red_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 2.700001,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "56449a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.82984,
+        "posY": 1.12822,
+        "posZ": -19.9224377,
+        "rotX": 7.59733957E-05,
+        "rotY": 284.9532,
+        "rotZ": -6.202517E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/blue_dial.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/blue_wheels_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 2,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.9,
+          "SpecularSharpness": 2.700001,
+          "FresnelStrength": 0.8
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "67fe24"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -13.7970572,
+        "posY": 1.13999653,
+        "posZ": -20.21719,
+        "rotX": -9.13048E-05,
+        "rotY": 165.001923,
+        "rotZ": -3.4664652E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/blue_radio.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/left_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "298de2",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -0.044040665,
+            "y": 0.180000067,
+            "z": -0.293452263
+          }
+        }
+      ]
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 0.0214204788,
+        "posY": 2.71113467,
+        "posZ": -13.1881809,
+        "rotX": 0.0,
+        "rotY": 0.559765041,
+        "rotZ": 0.0,
+        "scaleX": 52.05569,
+        "scaleY": 3.5,
+        "scaleZ": 25.3542862
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.0939999744
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "FogColor": "Red",
+      "FogHidePointers": false,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "463125"
+    },
+    {
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 0.1174593,
+        "posY": 2.71113467,
+        "posZ": 13.1154966,
+        "rotX": 0.0,
+        "rotY": 179.796082,
+        "rotZ": 0.0,
+        "scaleX": 51.3333359,
+        "scaleY": 3.5,
+        "scaleZ": 26.1203671
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.117999971,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "FogColor": "Blue",
+      "FogHidePointers": false,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "73d721"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -9.68380451,
+        "posY": 0.9168173,
+        "posZ": -5.78167725,
+        "rotX": 8.174665E-07,
+        "rotY": 164.999771,
+        "rotZ": -3.31738534E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/damage_marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Textures/metal.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/damage_marker.obj",
+        "Convex": false,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "908d7c",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 3.52660131,
+            "y": 1.83091807,
+            "z": 0.7987747
+          }
+        },
+        {
+          "Position": {
+            "x": -3.600897,
+            "y": 1.83091807,
+            "z": 0.6474356
+          }
+        },
+        {
+          "Position": {
+            "x": -0.04290042,
+            "y": 1.83698773,
+            "z": 0.725566745
+          }
+        },
+        {
+          "Position": {
+            "x": 1.89431512,
+            "y": 1.83621335,
+            "z": 0.7776319
+          }
+        },
+        {
+          "Position": {
+            "x": -1.89941037,
+            "y": 1.83635879,
+            "z": 0.7647992
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 12.7027941,
+        "posY": 0.9106543,
+        "posZ": -5.506122,
+        "rotX": 1.67747555E-06,
+        "rotY": 195.938156,
+        "rotZ": 3.33752041E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/damage_marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Textures/metal.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/damage_marker.obj",
+        "Convex": false,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "895d85",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 3.52660131,
+            "y": 1.83091807,
+            "z": 0.7987747
+          }
+        },
+        {
+          "Position": {
+            "x": -3.600897,
+            "y": 1.83091807,
+            "z": 0.6474356
+          }
+        },
+        {
+          "Position": {
+            "x": -0.04290042,
+            "y": 1.83698773,
+            "z": 0.725566745
+          }
+        },
+        {
+          "Position": {
+            "x": 1.89431512,
+            "y": 1.83621335,
+            "z": 0.7776319
+          }
+        },
+        {
+          "Position": {
+            "x": -1.89941037,
+            "y": 1.83635879,
+            "z": 0.7647992
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -6.660866,
+        "posY": 1.66083741,
+        "posZ": -14.3633909,
+        "rotX": 4.01714942E-06,
+        "rotY": 255.0144,
+        "rotZ": -1.77677775E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "RedPlayerCarrier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9529412,
+        "g": 0.0156862754,
+        "b": 0.191867754
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/carrier.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Textures/metal.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "55e264"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.9729118,
+        "posY": 0.916818,
+        "posZ": 6.335193,
+        "rotX": -3.67755831E-07,
+        "rotY": 15.01652,
+        "rotZ": -4.79048538E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/damage_marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Textures/metal.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/damage_marker.obj",
+        "Convex": false,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a2b5a5",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 3.52660131,
+            "y": 1.83091807,
+            "z": 0.7987747
+          }
+        },
+        {
+          "Position": {
+            "x": -3.600897,
+            "y": 1.83091807,
+            "z": 0.6474356
+          }
+        },
+        {
+          "Position": {
+            "x": -0.04290042,
+            "y": 1.83698773,
+            "z": 0.725566745
+          }
+        },
+        {
+          "Position": {
+            "x": 1.89431512,
+            "y": 1.83621335,
+            "z": 0.7776319
+          }
+        },
+        {
+          "Position": {
+            "x": -1.89941037,
+            "y": 1.83635879,
+            "z": 0.7647992
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 8.913724,
+        "posY": 1.66083884,
+        "posZ": 15.0609722,
+        "rotX": -1.66769109E-06,
+        "rotY": 254.968445,
+        "rotZ": -3.37895528E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "BluePlayerCarrier",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.1999998,
+        "g": 0.164705679,
+        "b": 0.968627453
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/carrier.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Textures/metal.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "02c7b7"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.2059259,
+        "posY": 0.9106555,
+        "posZ": 6.239395,
+        "rotX": 3.11618322E-07,
+        "rotY": 345.019318,
+        "rotZ": -2.56252349E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/damage_marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Textures/metal.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Models/damage_marker.obj",
+        "Convex": false,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "23455c",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 3.52660131,
+            "y": 1.83091807,
+            "z": 0.7987747
+          }
+        },
+        {
+          "Position": {
+            "x": -3.600897,
+            "y": 1.83091807,
+            "z": 0.6474356
+          }
+        },
+        {
+          "Position": {
+            "x": -0.04290042,
+            "y": 1.83698773,
+            "z": 0.725566745
+          }
+        },
+        {
+          "Position": {
+            "x": 1.89431512,
+            "y": 1.83621335,
+            "z": 0.7776319
+          }
+        },
+        {
+          "Position": {
+            "x": -1.89941037,
+            "y": 1.83635879,
+            "z": 0.7647992
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 8.305478,
+        "posY": 0.986192048,
+        "posZ": 15.417305,
+        "rotX": -4.01864924E-08,
+        "rotY": 344.991669,
+        "rotZ": 3.20638058E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/master/Models/base.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/center_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "12917a",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 4.3589,
+            "y": 0.644193053,
+            "z": 4.401577
+          }
+        },
+        {
+          "Position": {
+            "x": 3.44713163,
+            "y": 0.644193053,
+            "z": 4.425917
+          }
+        },
+        {
+          "Position": {
+            "x": 2.40838456,
+            "y": 0.644193053,
+            "z": 4.47489548
+          }
+        },
+        {
+          "Position": {
+            "x": 1.42279494,
+            "y": 0.644193053,
+            "z": 4.4582386
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4955969,
+            "y": 0.644193053,
+            "z": 4.42866755
+          }
+        },
+        {
+          "Position": {
+            "x": -0.562253237,
+            "y": 0.644193053,
+            "z": 4.41296053
+          }
+        },
+        {
+          "Position": {
+            "x": -1.504876,
+            "y": 0.644193053,
+            "z": 4.437217
+          }
+        },
+        {
+          "Position": {
+            "x": -2.44244,
+            "y": 0.644193053,
+            "z": 4.490609
+          }
+        },
+        {
+          "Position": {
+            "x": -3.48383355,
+            "y": 0.644193053,
+            "z": 4.43896437
+          }
+        },
+        {
+          "Position": {
+            "x": -4.42962265,
+            "y": 0.644193053,
+            "z": 4.43979359
+          }
+        },
+        {
+          "Position": {
+            "x": -4.47977638,
+            "y": 0.644193053,
+            "z": 3.43723488
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52128458,
+            "y": 0.644193053,
+            "z": 3.46665072
+          }
+        },
+        {
+          "Position": {
+            "x": -2.50222421,
+            "y": 0.644193053,
+            "z": 3.4313674
+          }
+        },
+        {
+          "Position": {
+            "x": -1.49149466,
+            "y": 0.644193053,
+            "z": 3.5037384
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5120134,
+            "y": 0.644193053,
+            "z": 3.4525044
+          }
+        },
+        {
+          "Position": {
+            "x": 0.439528257,
+            "y": 0.644193053,
+            "z": 3.48950458
+          }
+        },
+        {
+          "Position": {
+            "x": 1.457609,
+            "y": 0.644193053,
+            "z": 3.51211238
+          }
+        },
+        {
+          "Position": {
+            "x": 2.43019867,
+            "y": 0.644193053,
+            "z": 3.48988581
+          }
+        },
+        {
+          "Position": {
+            "x": 3.39640665,
+            "y": 0.644193053,
+            "z": 3.485391
+          }
+        },
+        {
+          "Position": {
+            "x": 4.41868,
+            "y": 0.644193053,
+            "z": 3.43640852
+          }
+        },
+        {
+          "Position": {
+            "x": 4.375199,
+            "y": 0.644193053,
+            "z": 2.42967963
+          }
+        },
+        {
+          "Position": {
+            "x": 3.49819064,
+            "y": 0.644193053,
+            "z": 2.46602941
+          }
+        },
+        {
+          "Position": {
+            "x": 2.46944976,
+            "y": 0.644193053,
+            "z": 2.51567435
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47627652,
+            "y": 0.644193053,
+            "z": 2.49795318
+          }
+        },
+        {
+          "Position": {
+            "x": 0.462010741,
+            "y": 0.644193053,
+            "z": 2.513204
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5045716,
+            "y": 0.644193053,
+            "z": 2.4677608
+          }
+        },
+        {
+          "Position": {
+            "x": -1.52639663,
+            "y": 0.644193053,
+            "z": 2.462134
+          }
+        },
+        {
+          "Position": {
+            "x": -2.55474663,
+            "y": 0.644193053,
+            "z": 2.48817563
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52358747,
+            "y": 0.644193053,
+            "z": 2.44716787
+          }
+        },
+        {
+          "Position": {
+            "x": -4.3954587,
+            "y": 0.644193053,
+            "z": 2.4191277
+          }
+        },
+        {
+          "Position": {
+            "x": 4.33699846,
+            "y": 0.644193053,
+            "z": 1.4967
+          }
+        },
+        {
+          "Position": {
+            "x": 3.399081,
+            "y": 0.644193053,
+            "z": 1.51626217
+          }
+        },
+        {
+          "Position": {
+            "x": 2.44145226,
+            "y": 0.644193053,
+            "z": 1.52904487
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47021425,
+            "y": 0.644193053,
+            "z": 1.50516665
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4845358,
+            "y": 0.644193053,
+            "z": 1.49202383
+          }
+        },
+        {
+          "Position": {
+            "x": -0.531863451,
+            "y": 0.644193053,
+            "z": 1.48626041
+          }
+        },
+        {
+          "Position": {
+            "x": -1.52585077,
+            "y": 0.644193053,
+            "z": 1.48062575
+          }
+        },
+        {
+          "Position": {
+            "x": -2.52402329,
+            "y": 0.644193053,
+            "z": 1.49950719
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52819276,
+            "y": 0.644193053,
+            "z": 1.49923134
+          }
+        },
+        {
+          "Position": {
+            "x": -4.531927,
+            "y": 0.644193053,
+            "z": 1.4139154
+          }
+        },
+        {
+          "Position": {
+            "x": 4.424969,
+            "y": 0.644193053,
+            "z": 0.548384547
+          }
+        },
+        {
+          "Position": {
+            "x": 3.39744687,
+            "y": 0.644193053,
+            "z": 0.481571227
+          }
+        },
+        {
+          "Position": {
+            "x": 2.472239,
+            "y": 0.644193053,
+            "z": 0.479748368
+          }
+        },
+        {
+          "Position": {
+            "x": 1.49073517,
+            "y": 0.644193053,
+            "z": 0.4414744
+          }
+        },
+        {
+          "Position": {
+            "x": 0.486344367,
+            "y": 0.644193053,
+            "z": 0.4339714
+          }
+        },
+        {
+          "Position": {
+            "x": -0.460055619,
+            "y": 0.644193053,
+            "z": 0.467127025
+          }
+        },
+        {
+          "Position": {
+            "x": -1.53639531,
+            "y": 0.644193053,
+            "z": 0.475120753
+          }
+        },
+        {
+          "Position": {
+            "x": -2.55464077,
+            "y": 0.644193053,
+            "z": 0.431515634
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52654028,
+            "y": 0.644193053,
+            "z": 0.436478138
+          }
+        },
+        {
+          "Position": {
+            "x": -4.49774265,
+            "y": 0.644193053,
+            "z": 0.384352118
+          }
+        },
+        {
+          "Position": {
+            "x": 4.40576172,
+            "y": 0.644193053,
+            "z": -0.488151371
+          }
+        },
+        {
+          "Position": {
+            "x": 3.42536736,
+            "y": 0.644193053,
+            "z": -0.5020365
+          }
+        },
+        {
+          "Position": {
+            "x": 2.41712427,
+            "y": 0.644193053,
+            "z": -0.49354437
+          }
+        },
+        {
+          "Position": {
+            "x": 1.50854075,
+            "y": 0.644193053,
+            "z": -0.5600958
+          }
+        },
+        {
+          "Position": {
+            "x": 0.495221227,
+            "y": 0.644193053,
+            "z": -0.5016888
+          }
+        },
+        {
+          "Position": {
+            "x": -0.510231137,
+            "y": 0.644193053,
+            "z": -0.558523953
+          }
+        },
+        {
+          "Position": {
+            "x": -1.53668523,
+            "y": 0.644193053,
+            "z": -0.565817
+          }
+        },
+        {
+          "Position": {
+            "x": -2.45122623,
+            "y": 0.644193053,
+            "z": -0.612382233
+          }
+        },
+        {
+          "Position": {
+            "x": -3.51662731,
+            "y": 0.644193053,
+            "z": -0.566631138
+          }
+        },
+        {
+          "Position": {
+            "x": -4.44145441,
+            "y": 0.644193053,
+            "z": -0.619178832
+          }
+        },
+        {
+          "Position": {
+            "x": -4.498303,
+            "y": 0.644193053,
+            "z": -1.50094438
+          }
+        },
+        {
+          "Position": {
+            "x": -3.47650456,
+            "y": 0.644193053,
+            "z": -1.51199365
+          }
+        },
+        {
+          "Position": {
+            "x": -2.518549,
+            "y": 0.644193053,
+            "z": -1.44067454
+          }
+        },
+        {
+          "Position": {
+            "x": -1.5213871,
+            "y": 0.644193053,
+            "z": -1.4593581
+          }
+        },
+        {
+          "Position": {
+            "x": -0.507044256,
+            "y": 0.644193053,
+            "z": -1.47816229
+          }
+        },
+        {
+          "Position": {
+            "x": 0.488708735,
+            "y": 0.644193053,
+            "z": -1.52373624
+          }
+        },
+        {
+          "Position": {
+            "x": 1.43246627,
+            "y": 0.644193053,
+            "z": -1.48782611
+          }
+        },
+        {
+          "Position": {
+            "x": 2.45504832,
+            "y": 0.644193053,
+            "z": -1.549333
+          }
+        },
+        {
+          "Position": {
+            "x": 3.4756372,
+            "y": 0.644193053,
+            "z": -1.500162
+          }
+        },
+        {
+          "Position": {
+            "x": 4.40396833,
+            "y": 0.644193053,
+            "z": -1.465104
+          }
+        },
+        {
+          "Position": {
+            "x": 4.4455514,
+            "y": 0.644193053,
+            "z": -2.48632216
+          }
+        },
+        {
+          "Position": {
+            "x": 3.439405,
+            "y": 0.644193053,
+            "z": -2.534358
+          }
+        },
+        {
+          "Position": {
+            "x": 2.404168,
+            "y": 0.644193053,
+            "z": -2.50609565
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47417378,
+            "y": 0.644193053,
+            "z": -2.528788
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4337179,
+            "y": 0.644193053,
+            "z": -2.50782847
+          }
+        },
+        {
+          "Position": {
+            "x": -0.483936042,
+            "y": 0.644193053,
+            "z": -2.48362279
+          }
+        },
+        {
+          "Position": {
+            "x": -1.50877249,
+            "y": 0.644193053,
+            "z": -2.517368
+          }
+        },
+        {
+          "Position": {
+            "x": -2.507309,
+            "y": 0.644193053,
+            "z": -2.49739218
+          }
+        },
+        {
+          "Position": {
+            "x": -3.50271082,
+            "y": 0.644193053,
+            "z": -2.52489614
+          }
+        },
+        {
+          "Position": {
+            "x": -4.472648,
+            "y": 0.644193053,
+            "z": -2.497153
+          }
+        },
+        {
+          "Position": {
+            "x": -4.53367472,
+            "y": 0.644193053,
+            "z": -3.48716283
+          }
+        },
+        {
+          "Position": {
+            "x": -3.430381,
+            "y": 0.644193053,
+            "z": -3.46142578
+          }
+        },
+        {
+          "Position": {
+            "x": -2.48914456,
+            "y": 0.644193053,
+            "z": -3.4250114
+          }
+        },
+        {
+          "Position": {
+            "x": -1.501989,
+            "y": 0.644193053,
+            "z": -3.42748046
+          }
+        },
+        {
+          "Position": {
+            "x": -0.521729052,
+            "y": 0.644193053,
+            "z": -3.46307683
+          }
+        },
+        {
+          "Position": {
+            "x": 0.442682564,
+            "y": 0.644193053,
+            "z": -3.503469
+          }
+        },
+        {
+          "Position": {
+            "x": 1.45740831,
+            "y": 0.644193053,
+            "z": -3.43836021
+          }
+        },
+        {
+          "Position": {
+            "x": 2.43394756,
+            "y": 0.644193053,
+            "z": -3.45129132
+          }
+        },
+        {
+          "Position": {
+            "x": 3.49929047,
+            "y": 0.644193053,
+            "z": -3.4242456
+          }
+        },
+        {
+          "Position": {
+            "x": 4.426536,
+            "y": 0.644193053,
+            "z": -3.47409844
+          }
+        },
+        {
+          "Position": {
+            "x": 4.43650341,
+            "y": 0.644193053,
+            "z": -4.43103
+          }
+        },
+        {
+          "Position": {
+            "x": 3.43247342,
+            "y": 0.644193053,
+            "z": -4.469039
+          }
+        },
+        {
+          "Position": {
+            "x": 2.47940326,
+            "y": 0.644193053,
+            "z": -4.438712
+          }
+        },
+        {
+          "Position": {
+            "x": 1.45906377,
+            "y": 0.644193053,
+            "z": -4.45678473
+          }
+        },
+        {
+          "Position": {
+            "x": 0.470765084,
+            "y": 0.644193053,
+            "z": -4.43831825
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5088936,
+            "y": 0.644193053,
+            "z": -4.465928
+          }
+        },
+        {
+          "Position": {
+            "x": -1.4939729,
+            "y": 0.644193053,
+            "z": -4.44208431
+          }
+        },
+        {
+          "Position": {
+            "x": -2.50874376,
+            "y": 0.644193053,
+            "z": -4.378099
+          }
+        },
+        {
+          "Position": {
+            "x": -3.48364019,
+            "y": 0.644193053,
+            "z": -4.434832
+          }
+        },
+        {
+          "Position": {
+            "x": -4.51506567,
+            "y": 0.644193053,
+            "z": -4.458578
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -8.459265,
+        "posY": 0.9861919,
+        "posZ": 15.560298,
+        "rotX": 9.800168E-08,
+        "rotY": 15.0155067,
+        "rotZ": -1.58632552E-09,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/master/Models/base.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/center_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "38043e",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 4.3589,
+            "y": 0.644193053,
+            "z": 4.401577
+          }
+        },
+        {
+          "Position": {
+            "x": 3.44713163,
+            "y": 0.644193053,
+            "z": 4.425917
+          }
+        },
+        {
+          "Position": {
+            "x": 2.40838456,
+            "y": 0.644193053,
+            "z": 4.47489548
+          }
+        },
+        {
+          "Position": {
+            "x": 1.42279494,
+            "y": 0.644193053,
+            "z": 4.4582386
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4955969,
+            "y": 0.644193053,
+            "z": 4.42866755
+          }
+        },
+        {
+          "Position": {
+            "x": -0.562253237,
+            "y": 0.644193053,
+            "z": 4.41296053
+          }
+        },
+        {
+          "Position": {
+            "x": -1.504876,
+            "y": 0.644193053,
+            "z": 4.437217
+          }
+        },
+        {
+          "Position": {
+            "x": -2.44244,
+            "y": 0.644193053,
+            "z": 4.490609
+          }
+        },
+        {
+          "Position": {
+            "x": -3.48383355,
+            "y": 0.644193053,
+            "z": 4.43896437
+          }
+        },
+        {
+          "Position": {
+            "x": -4.42962265,
+            "y": 0.644193053,
+            "z": 4.43979359
+          }
+        },
+        {
+          "Position": {
+            "x": -4.47977638,
+            "y": 0.644193053,
+            "z": 3.43723488
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52128458,
+            "y": 0.644193053,
+            "z": 3.46665072
+          }
+        },
+        {
+          "Position": {
+            "x": -2.50222421,
+            "y": 0.644193053,
+            "z": 3.4313674
+          }
+        },
+        {
+          "Position": {
+            "x": -1.49149466,
+            "y": 0.644193053,
+            "z": 3.5037384
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5120134,
+            "y": 0.644193053,
+            "z": 3.4525044
+          }
+        },
+        {
+          "Position": {
+            "x": 0.439528257,
+            "y": 0.644193053,
+            "z": 3.48950458
+          }
+        },
+        {
+          "Position": {
+            "x": 1.457609,
+            "y": 0.644193053,
+            "z": 3.51211238
+          }
+        },
+        {
+          "Position": {
+            "x": 2.43019867,
+            "y": 0.644193053,
+            "z": 3.48988581
+          }
+        },
+        {
+          "Position": {
+            "x": 3.39640665,
+            "y": 0.644193053,
+            "z": 3.485391
+          }
+        },
+        {
+          "Position": {
+            "x": 4.41868,
+            "y": 0.644193053,
+            "z": 3.43640852
+          }
+        },
+        {
+          "Position": {
+            "x": 4.375199,
+            "y": 0.644193053,
+            "z": 2.42967963
+          }
+        },
+        {
+          "Position": {
+            "x": 3.49819064,
+            "y": 0.644193053,
+            "z": 2.46602941
+          }
+        },
+        {
+          "Position": {
+            "x": 2.46944976,
+            "y": 0.644193053,
+            "z": 2.51567435
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47627652,
+            "y": 0.644193053,
+            "z": 2.49795318
+          }
+        },
+        {
+          "Position": {
+            "x": 0.462010741,
+            "y": 0.644193053,
+            "z": 2.513204
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5045716,
+            "y": 0.644193053,
+            "z": 2.4677608
+          }
+        },
+        {
+          "Position": {
+            "x": -1.52639663,
+            "y": 0.644193053,
+            "z": 2.462134
+          }
+        },
+        {
+          "Position": {
+            "x": -2.55474663,
+            "y": 0.644193053,
+            "z": 2.48817563
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52358747,
+            "y": 0.644193053,
+            "z": 2.44716787
+          }
+        },
+        {
+          "Position": {
+            "x": -4.3954587,
+            "y": 0.644193053,
+            "z": 2.4191277
+          }
+        },
+        {
+          "Position": {
+            "x": 4.33699846,
+            "y": 0.644193053,
+            "z": 1.4967
+          }
+        },
+        {
+          "Position": {
+            "x": 3.399081,
+            "y": 0.644193053,
+            "z": 1.51626217
+          }
+        },
+        {
+          "Position": {
+            "x": 2.44145226,
+            "y": 0.644193053,
+            "z": 1.52904487
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47021425,
+            "y": 0.644193053,
+            "z": 1.50516665
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4845358,
+            "y": 0.644193053,
+            "z": 1.49202383
+          }
+        },
+        {
+          "Position": {
+            "x": -0.531863451,
+            "y": 0.644193053,
+            "z": 1.48626041
+          }
+        },
+        {
+          "Position": {
+            "x": -1.52585077,
+            "y": 0.644193053,
+            "z": 1.48062575
+          }
+        },
+        {
+          "Position": {
+            "x": -2.52402329,
+            "y": 0.644193053,
+            "z": 1.49950719
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52819276,
+            "y": 0.644193053,
+            "z": 1.49923134
+          }
+        },
+        {
+          "Position": {
+            "x": -4.531927,
+            "y": 0.644193053,
+            "z": 1.4139154
+          }
+        },
+        {
+          "Position": {
+            "x": 4.424969,
+            "y": 0.644193053,
+            "z": 0.548384547
+          }
+        },
+        {
+          "Position": {
+            "x": 3.39744687,
+            "y": 0.644193053,
+            "z": 0.481571227
+          }
+        },
+        {
+          "Position": {
+            "x": 2.472239,
+            "y": 0.644193053,
+            "z": 0.479748368
+          }
+        },
+        {
+          "Position": {
+            "x": 1.49073517,
+            "y": 0.644193053,
+            "z": 0.4414744
+          }
+        },
+        {
+          "Position": {
+            "x": 0.486344367,
+            "y": 0.644193053,
+            "z": 0.4339714
+          }
+        },
+        {
+          "Position": {
+            "x": -0.460055619,
+            "y": 0.644193053,
+            "z": 0.467127025
+          }
+        },
+        {
+          "Position": {
+            "x": -1.53639531,
+            "y": 0.644193053,
+            "z": 0.475120753
+          }
+        },
+        {
+          "Position": {
+            "x": -2.55464077,
+            "y": 0.644193053,
+            "z": 0.431515634
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52654028,
+            "y": 0.644193053,
+            "z": 0.436478138
+          }
+        },
+        {
+          "Position": {
+            "x": -4.49774265,
+            "y": 0.644193053,
+            "z": 0.384352118
+          }
+        },
+        {
+          "Position": {
+            "x": 4.40576172,
+            "y": 0.644193053,
+            "z": -0.488151371
+          }
+        },
+        {
+          "Position": {
+            "x": 3.42536736,
+            "y": 0.644193053,
+            "z": -0.5020365
+          }
+        },
+        {
+          "Position": {
+            "x": 2.41712427,
+            "y": 0.644193053,
+            "z": -0.49354437
+          }
+        },
+        {
+          "Position": {
+            "x": 1.50854075,
+            "y": 0.644193053,
+            "z": -0.5600958
+          }
+        },
+        {
+          "Position": {
+            "x": 0.495221227,
+            "y": 0.644193053,
+            "z": -0.5016888
+          }
+        },
+        {
+          "Position": {
+            "x": -0.510231137,
+            "y": 0.644193053,
+            "z": -0.558523953
+          }
+        },
+        {
+          "Position": {
+            "x": -1.53668523,
+            "y": 0.644193053,
+            "z": -0.565817
+          }
+        },
+        {
+          "Position": {
+            "x": -2.45122623,
+            "y": 0.644193053,
+            "z": -0.612382233
+          }
+        },
+        {
+          "Position": {
+            "x": -3.51662731,
+            "y": 0.644193053,
+            "z": -0.566631138
+          }
+        },
+        {
+          "Position": {
+            "x": -4.44145441,
+            "y": 0.644193053,
+            "z": -0.619178832
+          }
+        },
+        {
+          "Position": {
+            "x": -4.498303,
+            "y": 0.644193053,
+            "z": -1.50094438
+          }
+        },
+        {
+          "Position": {
+            "x": -3.47650456,
+            "y": 0.644193053,
+            "z": -1.51199365
+          }
+        },
+        {
+          "Position": {
+            "x": -2.518549,
+            "y": 0.644193053,
+            "z": -1.44067454
+          }
+        },
+        {
+          "Position": {
+            "x": -1.5213871,
+            "y": 0.644193053,
+            "z": -1.4593581
+          }
+        },
+        {
+          "Position": {
+            "x": -0.507044256,
+            "y": 0.644193053,
+            "z": -1.47816229
+          }
+        },
+        {
+          "Position": {
+            "x": 0.488708735,
+            "y": 0.644193053,
+            "z": -1.52373624
+          }
+        },
+        {
+          "Position": {
+            "x": 1.43246627,
+            "y": 0.644193053,
+            "z": -1.48782611
+          }
+        },
+        {
+          "Position": {
+            "x": 2.45504832,
+            "y": 0.644193053,
+            "z": -1.549333
+          }
+        },
+        {
+          "Position": {
+            "x": 3.4756372,
+            "y": 0.644193053,
+            "z": -1.500162
+          }
+        },
+        {
+          "Position": {
+            "x": 4.40396833,
+            "y": 0.644193053,
+            "z": -1.465104
+          }
+        },
+        {
+          "Position": {
+            "x": 4.4455514,
+            "y": 0.644193053,
+            "z": -2.48632216
+          }
+        },
+        {
+          "Position": {
+            "x": 3.439405,
+            "y": 0.644193053,
+            "z": -2.534358
+          }
+        },
+        {
+          "Position": {
+            "x": 2.404168,
+            "y": 0.644193053,
+            "z": -2.50609565
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47417378,
+            "y": 0.644193053,
+            "z": -2.528788
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4337179,
+            "y": 0.644193053,
+            "z": -2.50782847
+          }
+        },
+        {
+          "Position": {
+            "x": -0.483936042,
+            "y": 0.644193053,
+            "z": -2.48362279
+          }
+        },
+        {
+          "Position": {
+            "x": -1.50877249,
+            "y": 0.644193053,
+            "z": -2.517368
+          }
+        },
+        {
+          "Position": {
+            "x": -2.507309,
+            "y": 0.644193053,
+            "z": -2.49739218
+          }
+        },
+        {
+          "Position": {
+            "x": -3.50271082,
+            "y": 0.644193053,
+            "z": -2.52489614
+          }
+        },
+        {
+          "Position": {
+            "x": -4.472648,
+            "y": 0.644193053,
+            "z": -2.497153
+          }
+        },
+        {
+          "Position": {
+            "x": -4.53367472,
+            "y": 0.644193053,
+            "z": -3.48716283
+          }
+        },
+        {
+          "Position": {
+            "x": -3.430381,
+            "y": 0.644193053,
+            "z": -3.46142578
+          }
+        },
+        {
+          "Position": {
+            "x": -2.48914456,
+            "y": 0.644193053,
+            "z": -3.4250114
+          }
+        },
+        {
+          "Position": {
+            "x": -1.501989,
+            "y": 0.644193053,
+            "z": -3.42748046
+          }
+        },
+        {
+          "Position": {
+            "x": -0.521729052,
+            "y": 0.644193053,
+            "z": -3.46307683
+          }
+        },
+        {
+          "Position": {
+            "x": 0.442682564,
+            "y": 0.644193053,
+            "z": -3.503469
+          }
+        },
+        {
+          "Position": {
+            "x": 1.45740831,
+            "y": 0.644193053,
+            "z": -3.43836021
+          }
+        },
+        {
+          "Position": {
+            "x": 2.43394756,
+            "y": 0.644193053,
+            "z": -3.45129132
+          }
+        },
+        {
+          "Position": {
+            "x": 3.49929047,
+            "y": 0.644193053,
+            "z": -3.4242456
+          }
+        },
+        {
+          "Position": {
+            "x": 4.426536,
+            "y": 0.644193053,
+            "z": -3.47409844
+          }
+        },
+        {
+          "Position": {
+            "x": 4.43650341,
+            "y": 0.644193053,
+            "z": -4.43103
+          }
+        },
+        {
+          "Position": {
+            "x": 3.43247342,
+            "y": 0.644193053,
+            "z": -4.469039
+          }
+        },
+        {
+          "Position": {
+            "x": 2.47940326,
+            "y": 0.644193053,
+            "z": -4.438712
+          }
+        },
+        {
+          "Position": {
+            "x": 1.45906377,
+            "y": 0.644193053,
+            "z": -4.45678473
+          }
+        },
+        {
+          "Position": {
+            "x": 0.470765084,
+            "y": 0.644193053,
+            "z": -4.43831825
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5088936,
+            "y": 0.644193053,
+            "z": -4.465928
+          }
+        },
+        {
+          "Position": {
+            "x": -1.4939729,
+            "y": 0.644193053,
+            "z": -4.44208431
+          }
+        },
+        {
+          "Position": {
+            "x": -2.50874376,
+            "y": 0.644193053,
+            "z": -4.378099
+          }
+        },
+        {
+          "Position": {
+            "x": -3.48364019,
+            "y": 0.644193053,
+            "z": -4.434832
+          }
+        },
+        {
+          "Position": {
+            "x": -4.51506567,
+            "y": 0.644193053,
+            "z": -4.458578
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -6.0528183,
+        "posY": 0.986190557,
+        "posZ": -14.7200623,
+        "rotX": -1.8126646E-05,
+        "rotY": 165.0235,
+        "rotZ": -5.488708E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9960785,
+        "g": 0.9974088,
+        "b": 1.0
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/master/Models/base.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/center_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7bd403",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 4.3589,
+            "y": 0.644193053,
+            "z": 4.401577
+          }
+        },
+        {
+          "Position": {
+            "x": 3.44713163,
+            "y": 0.644193053,
+            "z": 4.425917
+          }
+        },
+        {
+          "Position": {
+            "x": 2.40838456,
+            "y": 0.644193053,
+            "z": 4.47489548
+          }
+        },
+        {
+          "Position": {
+            "x": 1.42279494,
+            "y": 0.644193053,
+            "z": 4.4582386
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4955969,
+            "y": 0.644193053,
+            "z": 4.42866755
+          }
+        },
+        {
+          "Position": {
+            "x": -0.562253237,
+            "y": 0.644193053,
+            "z": 4.41296053
+          }
+        },
+        {
+          "Position": {
+            "x": -1.504876,
+            "y": 0.644193053,
+            "z": 4.437217
+          }
+        },
+        {
+          "Position": {
+            "x": -2.44244,
+            "y": 0.644193053,
+            "z": 4.490609
+          }
+        },
+        {
+          "Position": {
+            "x": -3.48383355,
+            "y": 0.644193053,
+            "z": 4.43896437
+          }
+        },
+        {
+          "Position": {
+            "x": -4.42962265,
+            "y": 0.644193053,
+            "z": 4.43979359
+          }
+        },
+        {
+          "Position": {
+            "x": -4.47977638,
+            "y": 0.644193053,
+            "z": 3.43723488
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52128458,
+            "y": 0.644193053,
+            "z": 3.46665072
+          }
+        },
+        {
+          "Position": {
+            "x": -2.50222421,
+            "y": 0.644193053,
+            "z": 3.4313674
+          }
+        },
+        {
+          "Position": {
+            "x": -1.49149466,
+            "y": 0.644193053,
+            "z": 3.5037384
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5120134,
+            "y": 0.644193053,
+            "z": 3.4525044
+          }
+        },
+        {
+          "Position": {
+            "x": 0.439528257,
+            "y": 0.644193053,
+            "z": 3.48950458
+          }
+        },
+        {
+          "Position": {
+            "x": 1.457609,
+            "y": 0.644193053,
+            "z": 3.51211238
+          }
+        },
+        {
+          "Position": {
+            "x": 2.43019867,
+            "y": 0.644193053,
+            "z": 3.48988581
+          }
+        },
+        {
+          "Position": {
+            "x": 3.39640665,
+            "y": 0.644193053,
+            "z": 3.485391
+          }
+        },
+        {
+          "Position": {
+            "x": 4.41868,
+            "y": 0.644193053,
+            "z": 3.43640852
+          }
+        },
+        {
+          "Position": {
+            "x": 4.375199,
+            "y": 0.644193053,
+            "z": 2.42967963
+          }
+        },
+        {
+          "Position": {
+            "x": 3.49819064,
+            "y": 0.644193053,
+            "z": 2.46602941
+          }
+        },
+        {
+          "Position": {
+            "x": 2.46944976,
+            "y": 0.644193053,
+            "z": 2.51567435
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47627652,
+            "y": 0.644193053,
+            "z": 2.49795318
+          }
+        },
+        {
+          "Position": {
+            "x": 0.462010741,
+            "y": 0.644193053,
+            "z": 2.513204
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5045716,
+            "y": 0.644193053,
+            "z": 2.4677608
+          }
+        },
+        {
+          "Position": {
+            "x": -1.52639663,
+            "y": 0.644193053,
+            "z": 2.462134
+          }
+        },
+        {
+          "Position": {
+            "x": -2.55474663,
+            "y": 0.644193053,
+            "z": 2.48817563
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52358747,
+            "y": 0.644193053,
+            "z": 2.44716787
+          }
+        },
+        {
+          "Position": {
+            "x": -4.3954587,
+            "y": 0.644193053,
+            "z": 2.4191277
+          }
+        },
+        {
+          "Position": {
+            "x": 4.33699846,
+            "y": 0.644193053,
+            "z": 1.4967
+          }
+        },
+        {
+          "Position": {
+            "x": 3.399081,
+            "y": 0.644193053,
+            "z": 1.51626217
+          }
+        },
+        {
+          "Position": {
+            "x": 2.44145226,
+            "y": 0.644193053,
+            "z": 1.52904487
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47021425,
+            "y": 0.644193053,
+            "z": 1.50516665
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4845358,
+            "y": 0.644193053,
+            "z": 1.49202383
+          }
+        },
+        {
+          "Position": {
+            "x": -0.531863451,
+            "y": 0.644193053,
+            "z": 1.48626041
+          }
+        },
+        {
+          "Position": {
+            "x": -1.52585077,
+            "y": 0.644193053,
+            "z": 1.48062575
+          }
+        },
+        {
+          "Position": {
+            "x": -2.52402329,
+            "y": 0.644193053,
+            "z": 1.49950719
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52819276,
+            "y": 0.644193053,
+            "z": 1.49923134
+          }
+        },
+        {
+          "Position": {
+            "x": -4.531927,
+            "y": 0.644193053,
+            "z": 1.4139154
+          }
+        },
+        {
+          "Position": {
+            "x": 4.424969,
+            "y": 0.644193053,
+            "z": 0.548384547
+          }
+        },
+        {
+          "Position": {
+            "x": 3.39744687,
+            "y": 0.644193053,
+            "z": 0.481571227
+          }
+        },
+        {
+          "Position": {
+            "x": 2.472239,
+            "y": 0.644193053,
+            "z": 0.479748368
+          }
+        },
+        {
+          "Position": {
+            "x": 1.49073517,
+            "y": 0.644193053,
+            "z": 0.4414744
+          }
+        },
+        {
+          "Position": {
+            "x": 0.486344367,
+            "y": 0.644193053,
+            "z": 0.4339714
+          }
+        },
+        {
+          "Position": {
+            "x": -0.460055619,
+            "y": 0.644193053,
+            "z": 0.467127025
+          }
+        },
+        {
+          "Position": {
+            "x": -1.53639531,
+            "y": 0.644193053,
+            "z": 0.475120753
+          }
+        },
+        {
+          "Position": {
+            "x": -2.55464077,
+            "y": 0.644193053,
+            "z": 0.431515634
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52654028,
+            "y": 0.644193053,
+            "z": 0.436478138
+          }
+        },
+        {
+          "Position": {
+            "x": -4.49774265,
+            "y": 0.644193053,
+            "z": 0.384352118
+          }
+        },
+        {
+          "Position": {
+            "x": 4.40576172,
+            "y": 0.644193053,
+            "z": -0.488151371
+          }
+        },
+        {
+          "Position": {
+            "x": 3.42536736,
+            "y": 0.644193053,
+            "z": -0.5020365
+          }
+        },
+        {
+          "Position": {
+            "x": 2.41712427,
+            "y": 0.644193053,
+            "z": -0.49354437
+          }
+        },
+        {
+          "Position": {
+            "x": 1.50854075,
+            "y": 0.644193053,
+            "z": -0.5600958
+          }
+        },
+        {
+          "Position": {
+            "x": 0.495221227,
+            "y": 0.644193053,
+            "z": -0.5016888
+          }
+        },
+        {
+          "Position": {
+            "x": -0.510231137,
+            "y": 0.644193053,
+            "z": -0.558523953
+          }
+        },
+        {
+          "Position": {
+            "x": -1.53668523,
+            "y": 0.644193053,
+            "z": -0.565817
+          }
+        },
+        {
+          "Position": {
+            "x": -2.45122623,
+            "y": 0.644193053,
+            "z": -0.612382233
+          }
+        },
+        {
+          "Position": {
+            "x": -3.51662731,
+            "y": 0.644193053,
+            "z": -0.566631138
+          }
+        },
+        {
+          "Position": {
+            "x": -4.44145441,
+            "y": 0.644193053,
+            "z": -0.619178832
+          }
+        },
+        {
+          "Position": {
+            "x": -4.498303,
+            "y": 0.644193053,
+            "z": -1.50094438
+          }
+        },
+        {
+          "Position": {
+            "x": -3.47650456,
+            "y": 0.644193053,
+            "z": -1.51199365
+          }
+        },
+        {
+          "Position": {
+            "x": -2.518549,
+            "y": 0.644193053,
+            "z": -1.44067454
+          }
+        },
+        {
+          "Position": {
+            "x": -1.5213871,
+            "y": 0.644193053,
+            "z": -1.4593581
+          }
+        },
+        {
+          "Position": {
+            "x": -0.507044256,
+            "y": 0.644193053,
+            "z": -1.47816229
+          }
+        },
+        {
+          "Position": {
+            "x": 0.488708735,
+            "y": 0.644193053,
+            "z": -1.52373624
+          }
+        },
+        {
+          "Position": {
+            "x": 1.43246627,
+            "y": 0.644193053,
+            "z": -1.48782611
+          }
+        },
+        {
+          "Position": {
+            "x": 2.45504832,
+            "y": 0.644193053,
+            "z": -1.549333
+          }
+        },
+        {
+          "Position": {
+            "x": 3.4756372,
+            "y": 0.644193053,
+            "z": -1.500162
+          }
+        },
+        {
+          "Position": {
+            "x": 4.40396833,
+            "y": 0.644193053,
+            "z": -1.465104
+          }
+        },
+        {
+          "Position": {
+            "x": 4.4455514,
+            "y": 0.644193053,
+            "z": -2.48632216
+          }
+        },
+        {
+          "Position": {
+            "x": 3.439405,
+            "y": 0.644193053,
+            "z": -2.534358
+          }
+        },
+        {
+          "Position": {
+            "x": 2.404168,
+            "y": 0.644193053,
+            "z": -2.50609565
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47417378,
+            "y": 0.644193053,
+            "z": -2.528788
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4337179,
+            "y": 0.644193053,
+            "z": -2.50782847
+          }
+        },
+        {
+          "Position": {
+            "x": -0.483936042,
+            "y": 0.644193053,
+            "z": -2.48362279
+          }
+        },
+        {
+          "Position": {
+            "x": -1.50877249,
+            "y": 0.644193053,
+            "z": -2.517368
+          }
+        },
+        {
+          "Position": {
+            "x": -2.507309,
+            "y": 0.644193053,
+            "z": -2.49739218
+          }
+        },
+        {
+          "Position": {
+            "x": -3.50271082,
+            "y": 0.644193053,
+            "z": -2.52489614
+          }
+        },
+        {
+          "Position": {
+            "x": -4.472648,
+            "y": 0.644193053,
+            "z": -2.497153
+          }
+        },
+        {
+          "Position": {
+            "x": -4.53367472,
+            "y": 0.644193053,
+            "z": -3.48716283
+          }
+        },
+        {
+          "Position": {
+            "x": -3.430381,
+            "y": 0.644193053,
+            "z": -3.46142578
+          }
+        },
+        {
+          "Position": {
+            "x": -2.48914456,
+            "y": 0.644193053,
+            "z": -3.4250114
+          }
+        },
+        {
+          "Position": {
+            "x": -1.501989,
+            "y": 0.644193053,
+            "z": -3.42748046
+          }
+        },
+        {
+          "Position": {
+            "x": -0.521729052,
+            "y": 0.644193053,
+            "z": -3.46307683
+          }
+        },
+        {
+          "Position": {
+            "x": 0.442682564,
+            "y": 0.644193053,
+            "z": -3.503469
+          }
+        },
+        {
+          "Position": {
+            "x": 1.45740831,
+            "y": 0.644193053,
+            "z": -3.43836021
+          }
+        },
+        {
+          "Position": {
+            "x": 2.43394756,
+            "y": 0.644193053,
+            "z": -3.45129132
+          }
+        },
+        {
+          "Position": {
+            "x": 3.49929047,
+            "y": 0.644193053,
+            "z": -3.4242456
+          }
+        },
+        {
+          "Position": {
+            "x": 4.426536,
+            "y": 0.644193053,
+            "z": -3.47409844
+          }
+        },
+        {
+          "Position": {
+            "x": 4.43650341,
+            "y": 0.644193053,
+            "z": -4.43103
+          }
+        },
+        {
+          "Position": {
+            "x": 3.43247342,
+            "y": 0.644193053,
+            "z": -4.469039
+          }
+        },
+        {
+          "Position": {
+            "x": 2.47940326,
+            "y": 0.644193053,
+            "z": -4.438712
+          }
+        },
+        {
+          "Position": {
+            "x": 1.45906377,
+            "y": 0.644193053,
+            "z": -4.45678473
+          }
+        },
+        {
+          "Position": {
+            "x": 0.470765084,
+            "y": 0.644193053,
+            "z": -4.43831825
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5088936,
+            "y": 0.644193053,
+            "z": -4.465928
+          }
+        },
+        {
+          "Position": {
+            "x": -1.4939729,
+            "y": 0.644193053,
+            "z": -4.44208431
+          }
+        },
+        {
+          "Position": {
+            "x": -2.50874376,
+            "y": 0.644193053,
+            "z": -4.378099
+          }
+        },
+        {
+          "Position": {
+            "x": -3.48364019,
+            "y": 0.644193053,
+            "z": -4.434832
+          }
+        },
+        {
+          "Position": {
+            "x": -4.51506567,
+            "y": 0.644193053,
+            "z": -4.458578
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 9.711511,
+        "posY": 0.986192048,
+        "posZ": -14.6137753,
+        "rotX": 3.34662467E-08,
+        "rotY": 195.011871,
+        "rotZ": 5.208904E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/master/Models/base.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/smatcher/BattleshipEnigma/Raw/EnigmaExpansion/center_1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": false,
+        "MaterialIndex": 2,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.7372549,
+            "g": 0.7372549,
+            "b": 0.7372549
+          },
+          "SpecularIntensity": 0.5,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "78f86f",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 4.3589,
+            "y": 0.644193053,
+            "z": 4.401577
+          }
+        },
+        {
+          "Position": {
+            "x": 3.44713163,
+            "y": 0.644193053,
+            "z": 4.425917
+          }
+        },
+        {
+          "Position": {
+            "x": 2.40838456,
+            "y": 0.644193053,
+            "z": 4.47489548
+          }
+        },
+        {
+          "Position": {
+            "x": 1.42279494,
+            "y": 0.644193053,
+            "z": 4.4582386
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4955969,
+            "y": 0.644193053,
+            "z": 4.42866755
+          }
+        },
+        {
+          "Position": {
+            "x": -0.562253237,
+            "y": 0.644193053,
+            "z": 4.41296053
+          }
+        },
+        {
+          "Position": {
+            "x": -1.504876,
+            "y": 0.644193053,
+            "z": 4.437217
+          }
+        },
+        {
+          "Position": {
+            "x": -2.44244,
+            "y": 0.644193053,
+            "z": 4.490609
+          }
+        },
+        {
+          "Position": {
+            "x": -3.48383355,
+            "y": 0.644193053,
+            "z": 4.43896437
+          }
+        },
+        {
+          "Position": {
+            "x": -4.42962265,
+            "y": 0.644193053,
+            "z": 4.43979359
+          }
+        },
+        {
+          "Position": {
+            "x": -4.47977638,
+            "y": 0.644193053,
+            "z": 3.43723488
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52128458,
+            "y": 0.644193053,
+            "z": 3.46665072
+          }
+        },
+        {
+          "Position": {
+            "x": -2.50222421,
+            "y": 0.644193053,
+            "z": 3.4313674
+          }
+        },
+        {
+          "Position": {
+            "x": -1.49149466,
+            "y": 0.644193053,
+            "z": 3.5037384
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5120134,
+            "y": 0.644193053,
+            "z": 3.4525044
+          }
+        },
+        {
+          "Position": {
+            "x": 0.439528257,
+            "y": 0.644193053,
+            "z": 3.48950458
+          }
+        },
+        {
+          "Position": {
+            "x": 1.457609,
+            "y": 0.644193053,
+            "z": 3.51211238
+          }
+        },
+        {
+          "Position": {
+            "x": 2.43019867,
+            "y": 0.644193053,
+            "z": 3.48988581
+          }
+        },
+        {
+          "Position": {
+            "x": 3.39640665,
+            "y": 0.644193053,
+            "z": 3.485391
+          }
+        },
+        {
+          "Position": {
+            "x": 4.41868,
+            "y": 0.644193053,
+            "z": 3.43640852
+          }
+        },
+        {
+          "Position": {
+            "x": 4.375199,
+            "y": 0.644193053,
+            "z": 2.42967963
+          }
+        },
+        {
+          "Position": {
+            "x": 3.49819064,
+            "y": 0.644193053,
+            "z": 2.46602941
+          }
+        },
+        {
+          "Position": {
+            "x": 2.46944976,
+            "y": 0.644193053,
+            "z": 2.51567435
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47627652,
+            "y": 0.644193053,
+            "z": 2.49795318
+          }
+        },
+        {
+          "Position": {
+            "x": 0.462010741,
+            "y": 0.644193053,
+            "z": 2.513204
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5045716,
+            "y": 0.644193053,
+            "z": 2.4677608
+          }
+        },
+        {
+          "Position": {
+            "x": -1.52639663,
+            "y": 0.644193053,
+            "z": 2.462134
+          }
+        },
+        {
+          "Position": {
+            "x": -2.55474663,
+            "y": 0.644193053,
+            "z": 2.48817563
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52358747,
+            "y": 0.644193053,
+            "z": 2.44716787
+          }
+        },
+        {
+          "Position": {
+            "x": -4.3954587,
+            "y": 0.644193053,
+            "z": 2.4191277
+          }
+        },
+        {
+          "Position": {
+            "x": 4.33699846,
+            "y": 0.644193053,
+            "z": 1.4967
+          }
+        },
+        {
+          "Position": {
+            "x": 3.399081,
+            "y": 0.644193053,
+            "z": 1.51626217
+          }
+        },
+        {
+          "Position": {
+            "x": 2.44145226,
+            "y": 0.644193053,
+            "z": 1.52904487
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47021425,
+            "y": 0.644193053,
+            "z": 1.50516665
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4845358,
+            "y": 0.644193053,
+            "z": 1.49202383
+          }
+        },
+        {
+          "Position": {
+            "x": -0.531863451,
+            "y": 0.644193053,
+            "z": 1.48626041
+          }
+        },
+        {
+          "Position": {
+            "x": -1.52585077,
+            "y": 0.644193053,
+            "z": 1.48062575
+          }
+        },
+        {
+          "Position": {
+            "x": -2.52402329,
+            "y": 0.644193053,
+            "z": 1.49950719
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52819276,
+            "y": 0.644193053,
+            "z": 1.49923134
+          }
+        },
+        {
+          "Position": {
+            "x": -4.531927,
+            "y": 0.644193053,
+            "z": 1.4139154
+          }
+        },
+        {
+          "Position": {
+            "x": 4.424969,
+            "y": 0.644193053,
+            "z": 0.548384547
+          }
+        },
+        {
+          "Position": {
+            "x": 3.39744687,
+            "y": 0.644193053,
+            "z": 0.481571227
+          }
+        },
+        {
+          "Position": {
+            "x": 2.472239,
+            "y": 0.644193053,
+            "z": 0.479748368
+          }
+        },
+        {
+          "Position": {
+            "x": 1.49073517,
+            "y": 0.644193053,
+            "z": 0.4414744
+          }
+        },
+        {
+          "Position": {
+            "x": 0.486344367,
+            "y": 0.644193053,
+            "z": 0.4339714
+          }
+        },
+        {
+          "Position": {
+            "x": -0.460055619,
+            "y": 0.644193053,
+            "z": 0.467127025
+          }
+        },
+        {
+          "Position": {
+            "x": -1.53639531,
+            "y": 0.644193053,
+            "z": 0.475120753
+          }
+        },
+        {
+          "Position": {
+            "x": -2.55464077,
+            "y": 0.644193053,
+            "z": 0.431515634
+          }
+        },
+        {
+          "Position": {
+            "x": -3.52654028,
+            "y": 0.644193053,
+            "z": 0.436478138
+          }
+        },
+        {
+          "Position": {
+            "x": -4.49774265,
+            "y": 0.644193053,
+            "z": 0.384352118
+          }
+        },
+        {
+          "Position": {
+            "x": 4.40576172,
+            "y": 0.644193053,
+            "z": -0.488151371
+          }
+        },
+        {
+          "Position": {
+            "x": 3.42536736,
+            "y": 0.644193053,
+            "z": -0.5020365
+          }
+        },
+        {
+          "Position": {
+            "x": 2.41712427,
+            "y": 0.644193053,
+            "z": -0.49354437
+          }
+        },
+        {
+          "Position": {
+            "x": 1.50854075,
+            "y": 0.644193053,
+            "z": -0.5600958
+          }
+        },
+        {
+          "Position": {
+            "x": 0.495221227,
+            "y": 0.644193053,
+            "z": -0.5016888
+          }
+        },
+        {
+          "Position": {
+            "x": -0.510231137,
+            "y": 0.644193053,
+            "z": -0.558523953
+          }
+        },
+        {
+          "Position": {
+            "x": -1.53668523,
+            "y": 0.644193053,
+            "z": -0.565817
+          }
+        },
+        {
+          "Position": {
+            "x": -2.45122623,
+            "y": 0.644193053,
+            "z": -0.612382233
+          }
+        },
+        {
+          "Position": {
+            "x": -3.51662731,
+            "y": 0.644193053,
+            "z": -0.566631138
+          }
+        },
+        {
+          "Position": {
+            "x": -4.44145441,
+            "y": 0.644193053,
+            "z": -0.619178832
+          }
+        },
+        {
+          "Position": {
+            "x": -4.498303,
+            "y": 0.644193053,
+            "z": -1.50094438
+          }
+        },
+        {
+          "Position": {
+            "x": -3.47650456,
+            "y": 0.644193053,
+            "z": -1.51199365
+          }
+        },
+        {
+          "Position": {
+            "x": -2.518549,
+            "y": 0.644193053,
+            "z": -1.44067454
+          }
+        },
+        {
+          "Position": {
+            "x": -1.5213871,
+            "y": 0.644193053,
+            "z": -1.4593581
+          }
+        },
+        {
+          "Position": {
+            "x": -0.507044256,
+            "y": 0.644193053,
+            "z": -1.47816229
+          }
+        },
+        {
+          "Position": {
+            "x": 0.488708735,
+            "y": 0.644193053,
+            "z": -1.52373624
+          }
+        },
+        {
+          "Position": {
+            "x": 1.43246627,
+            "y": 0.644193053,
+            "z": -1.48782611
+          }
+        },
+        {
+          "Position": {
+            "x": 2.45504832,
+            "y": 0.644193053,
+            "z": -1.549333
+          }
+        },
+        {
+          "Position": {
+            "x": 3.4756372,
+            "y": 0.644193053,
+            "z": -1.500162
+          }
+        },
+        {
+          "Position": {
+            "x": 4.40396833,
+            "y": 0.644193053,
+            "z": -1.465104
+          }
+        },
+        {
+          "Position": {
+            "x": 4.4455514,
+            "y": 0.644193053,
+            "z": -2.48632216
+          }
+        },
+        {
+          "Position": {
+            "x": 3.439405,
+            "y": 0.644193053,
+            "z": -2.534358
+          }
+        },
+        {
+          "Position": {
+            "x": 2.404168,
+            "y": 0.644193053,
+            "z": -2.50609565
+          }
+        },
+        {
+          "Position": {
+            "x": 1.47417378,
+            "y": 0.644193053,
+            "z": -2.528788
+          }
+        },
+        {
+          "Position": {
+            "x": 0.4337179,
+            "y": 0.644193053,
+            "z": -2.50782847
+          }
+        },
+        {
+          "Position": {
+            "x": -0.483936042,
+            "y": 0.644193053,
+            "z": -2.48362279
+          }
+        },
+        {
+          "Position": {
+            "x": -1.50877249,
+            "y": 0.644193053,
+            "z": -2.517368
+          }
+        },
+        {
+          "Position": {
+            "x": -2.507309,
+            "y": 0.644193053,
+            "z": -2.49739218
+          }
+        },
+        {
+          "Position": {
+            "x": -3.50271082,
+            "y": 0.644193053,
+            "z": -2.52489614
+          }
+        },
+        {
+          "Position": {
+            "x": -4.472648,
+            "y": 0.644193053,
+            "z": -2.497153
+          }
+        },
+        {
+          "Position": {
+            "x": -4.53367472,
+            "y": 0.644193053,
+            "z": -3.48716283
+          }
+        },
+        {
+          "Position": {
+            "x": -3.430381,
+            "y": 0.644193053,
+            "z": -3.46142578
+          }
+        },
+        {
+          "Position": {
+            "x": -2.48914456,
+            "y": 0.644193053,
+            "z": -3.4250114
+          }
+        },
+        {
+          "Position": {
+            "x": -1.501989,
+            "y": 0.644193053,
+            "z": -3.42748046
+          }
+        },
+        {
+          "Position": {
+            "x": -0.521729052,
+            "y": 0.644193053,
+            "z": -3.46307683
+          }
+        },
+        {
+          "Position": {
+            "x": 0.442682564,
+            "y": 0.644193053,
+            "z": -3.503469
+          }
+        },
+        {
+          "Position": {
+            "x": 1.45740831,
+            "y": 0.644193053,
+            "z": -3.43836021
+          }
+        },
+        {
+          "Position": {
+            "x": 2.43394756,
+            "y": 0.644193053,
+            "z": -3.45129132
+          }
+        },
+        {
+          "Position": {
+            "x": 3.49929047,
+            "y": 0.644193053,
+            "z": -3.4242456
+          }
+        },
+        {
+          "Position": {
+            "x": 4.426536,
+            "y": 0.644193053,
+            "z": -3.47409844
+          }
+        },
+        {
+          "Position": {
+            "x": 4.43650341,
+            "y": 0.644193053,
+            "z": -4.43103
+          }
+        },
+        {
+          "Position": {
+            "x": 3.43247342,
+            "y": 0.644193053,
+            "z": -4.469039
+          }
+        },
+        {
+          "Position": {
+            "x": 2.47940326,
+            "y": 0.644193053,
+            "z": -4.438712
+          }
+        },
+        {
+          "Position": {
+            "x": 1.45906377,
+            "y": 0.644193053,
+            "z": -4.45678473
+          }
+        },
+        {
+          "Position": {
+            "x": 0.470765084,
+            "y": 0.644193053,
+            "z": -4.43831825
+          }
+        },
+        {
+          "Position": {
+            "x": -0.5088936,
+            "y": 0.644193053,
+            "z": -4.465928
+          }
+        },
+        {
+          "Position": {
+            "x": -1.4939729,
+            "y": 0.644193053,
+            "z": -4.44208431
+          }
+        },
+        {
+          "Position": {
+            "x": -2.50874376,
+            "y": 0.644193053,
+            "z": -4.378099
+          }
+        },
+        {
+          "Position": {
+            "x": -3.48364019,
+            "y": 0.644193053,
+            "z": -4.434832
+          }
+        },
+        {
+          "Position": {
+            "x": -4.51506567,
+            "y": 0.644193053,
+            "z": -4.458578
+          }
+        }
+      ]
+    }
+  ],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  }
+}
