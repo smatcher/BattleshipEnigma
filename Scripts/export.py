@@ -5,9 +5,15 @@ import importlib
 
 # High level script configuration
 objs_to_export = {
-	'Base':    'Models/base.obj',
-	'Carrier': 'Models/carrier.obj',
-	'Dial':    'Models/dial.obj'
+	'Base':         'Models/base.obj',
+	'Carrier':      'Models/carrier.obj',
+	'DamageMarker': 'Models/damage_marker.obj',
+	'BlueDial':     'Models/blue_dial.obj',
+	'RedDial':      'Models/red_dial.obj',
+	'BlueRadio':    'Models/blue_radio.obj',
+	'RedRadio':     'Models/red_radio.obj',
+	'RedPeg':       'Models/red_peg.obj',
+	'WhitePeg':     'Models/white_peg.obj'
 }
 
 blend_file_path = 'Raw/raw.blend'
